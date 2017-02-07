@@ -1,0 +1,14 @@
+  ____  _     _  _____  ____  ____   ____   __  _  __  _  ____ _____ 
+ (_ (_`| |__ | ||_   _|(_ (_`/ (__` / () \ |  \| ||  \| || ===|| () )
+.__)__)|____||_|  |_| .__)__)\____)/__/\__\|_|\__||_|\__||____||_|\_\
+
+by Eduardo Morais 2013-2017
+
+A tool for slit-scan photography, complete with the ability to switch between webcam mode (if available) and video file analysis, a GUI (including dragging and dropping video files) and keyboard shortcuts.
+
+Refactored for Processing 3.1.1 in 2016
+
+----------------------------------------------
+
+Website: www.eduardomorais.com/code/slitscanner
+Source code: www.github.com/edmorais/Slitscanner

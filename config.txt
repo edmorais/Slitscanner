@@ -1,0 +1,31 @@
+#
+# Slitscanner
+# by Eduardo Morais 2012
+#
+# Configuration file
+#
+
+# window width & height:
+win.width 			= 960
+win.height 			= 640
+
+# capture width & height:
+cap.width			= 640
+cap.height			= 480
+
+# start in scroll mode:
+opt.scroll			= true
+# show camera view:
+opt.pip				= false
+
+# scanning direction (left-to-right)
+opt.left_to_right	= false
+opt.vertical		= false
+
+# show ui:
+ui.show				= true
+
+# default save folder
+opt.save			= Saved Images
+# default save png (jpeg if false)
+opt.png				= true
