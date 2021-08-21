@@ -1,13 +1,13 @@
 #
 # Slitscanner
-# by Eduardo Morais 2012
+# by Eduardo Morais 2021
 #
 # Configuration file
 #
 
 # window width & height:
-win.width 			= 960
-win.height 			= 640
+win.width 			= 1280
+win.height 			= 720
 
 # capture width & height:
 cap.width			= 640

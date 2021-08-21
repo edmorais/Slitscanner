@@ -3,7 +3,7 @@
  *  (_ (_`| |__ | ||_   _|(_ (_`/ (__` / () \ |  \| ||  \| || ===|| () )
  * .__)__)|____||_|  |_| .__)__)\____)/__/\__\|_|\__||_|\__||____||_|\_\
  * 
- * by Eduardo Morais 2012-2013 - www.eduardomorais.pt
+ * by Eduardo Morais 2012-2021 - www.eduardomorais.pt
  *
  */
 
@@ -18,7 +18,7 @@ import java.text.*;
 import java.awt.event.KeyEvent;
 
 // GLOBALS (denoted by $)
-String $version = "1.3";
+String $version = "1.4";
 
 int $windowWidth = 854;
 int $windowHeight = 480;  // screen size

@@ -111,15 +111,15 @@ void keyPressed() {
         if ((keyCode == LEFT && !$vertical)
         || (keyCode == UP && $vertical)) {
             $pressing = true;
-            $scanPos--;
-            if ($scanPos <10) {
+            $scanPos = $scanPos - 3;
+            if ($scanPos < 10) {
                 $scanPos = 5;
             }
         }
 
         if (keyCode == RIGHT && !$vertical) {
             $pressing = true;
-            $scanPos++;
+            $scanPos = $scanPos + 3;
             if ($scanPos > $feed.width-10) {
                 $scanPos = $feed.width-5;
             }
@@ -127,7 +127,7 @@ void keyPressed() {
 
         if (keyCode == DOWN && $vertical) {
             $pressing = true;
-            $scanPos++;
+            $scanPos = $scanPos + 3;
             if ($scanPos > $feed.height-10) {
                 $scanPos = $feed.height-5;
             }

@@ -1,6 +1,6 @@
 /*
  * SlitScanner
- * by Eduardo Morais 2012 - www.eduardomorais.pt
+ * by Eduardo Morais 2012-2021 - www.eduardomorais.pt
  *
  */
 
@@ -282,5 +282,3 @@ void draw() {
         }
     }
 }
-
-
