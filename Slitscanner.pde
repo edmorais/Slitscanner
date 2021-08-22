@@ -160,8 +160,8 @@ void setup() {
     $font = createFont($fontName, 20, true);
     $help.fill(255);
     $help.textFont($font, 20);
-    hw = $help.textWidth("EDUARDO MORAIS 2012-2013");
-    $help.text("EDUARDO MORAIS 2012-2013", $help.width-20-hw, 40);
+    hw = $help.textWidth("EDUARDO MORAIS 2012-2021");
+    $help.text("EDUARDO MORAIS 2012-2021", $help.width-20-hw, 40);
 
 
     $help.fill(#FF9933);
